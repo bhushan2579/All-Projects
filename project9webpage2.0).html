@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project(webpage2.0)</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar {
+            /* height: 60px; */
+            width: 100%;
+            background-color: black;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+        #nav {
+            display: block;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            width: 30px;
+        }
+        .start1 {
+            
+            
+        }
+        #b {
+            font-size: 39px;
+            font-family:monospace;
+            width: 40px;
+        }
+        #bb {
+            /* height: 300px; */
+            width: 100%;
+            display: flex;
+            background-color: rgb(230, 221, 221);
+          
+        }
+        #hu {
+            font-size: 30px;
+            font-weight: 650;
+        }
+        #lm {
+            /* height: 20px; */
+            width: 100px;
+            background-color: orange;
+            text-align: center;
+            box-shadow: 7px 5px;
+        }
+        #text {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            padding-top: 20px;
+            /* background-image: url( happy-diwali.jpg) ; */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+        }
+        #paragg {
+            font-size: 20px;
+            font-weight: 550;
+        }
+        #pic {
+            margin-top: 25px;
+            /* height: 250px; */
+            width: 600px;
+            transition-duration: 2s;
+            transition-property: all;
+            /* transition-delay: 0.5s; */
+            /* transition-timing-function: steps(3); */
+            background-color: transparent;
+        }
+        #pic:hover {
+            /* height: 250px; */
+            width: 800px;
+        }
+        .second2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #images3 {
+            height: auto;
+            width: 60%;
+           transition-duration: 2s;
+           /* transition-property: all; */
+        }
+        #images3:hover {
+            width: 600px;
+        }
+        #black {
+        /* height: 350px; */
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        /* padding-top: 35px; */
+       }
+       #img {
+        height: 50px;
+       }
+       #t {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+       }
+       #date {
+        height: 50px;
+       }
+       #lp {
+        font-size: 40px;
+       }
+       #About {
+        font-size: 40px;
+       }
+       #ht {
+        font-size: 40px;
+       }
+       @media screen and (max-width:950px) {
+        .body {
+            flex-direction: column-reverse;
+            width: 100%;
+        }
+        #nav {
+            display: none;
+        }
+        #bb {
+            flex-direction: column;
+            height: auto;
+
+        }
+        #text {
+            height: auto;
+        }
+        #pic {
+            display: none;
+            flex-direction: column;
+        }
+        .second2 {
+            flex-direction: column;
+            text-align: center;
+           
+        }
+        #black {
+            flex-direction: column;
+            height: auto;
+            text-align: center;
+        }
+       }
+    </style>
+</head>
+<body class="body">
+    <!-- first div parent div for navbar  -->
+     <div class="navbar">
+            <b id="b">Bloom</b>
+            <p id="nav">Home</p>
+            <p id="nav">About Us</p>
+            <p id="nav">Services</p>
+            <p id="nav">Portfolio</p>
+            <p id="nav">Contact Us</p>
+        </div>
+     <!-- second div parent div for start contant  -->
+     
+        <div id="bb">
+            <div id="text">
+                 <b id="hu">Lorem ipsum dolor sit amet.</b>
+                 <p id="paragg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi nesciunt ratione asperiores dolore expedita rerum ab, molestiae cum eveniet natus. Vel facilis quibusdam quia quis illum quisquam! Dignissimos assumenda cum, sed cupiditate ratione distinctio minus animi nostrum perferendis dolores!</p>
+                 <input id="lm" type="button" value="Learn More">
+                </div>
+                <div> <img id="pic" src="images (1).jpeg" alt="image"></div>
+      </div>
+   
+      <h2 >This Is A Heading</h2>
+      <div class="second2">
+         <!-- child div 1 -->
+          <div>
+            <img id="images3" src="yamato.img.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolorum!</p>
+            <input id="lm" type="button" value="Learn More">
+          </div> <br>
+         <!-- child div 2 -->
+         <div>
+            <img id="images3" src="yamato.img.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolorum!</p>
+            <input id="lm" type="button" value="Learn More">   
+        </div> <br>
+         <!-- child div 3 -->
+         <div>
+            <img id="images3" src="yamato.img.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolorum!</p>
+            <input id="lm" type="button" value="Learn More">
+        </div>
+      </div> <br>
+      <div id="black">
+        <div id="first">
+            <h2 id="lp">Latest Posts</h2> <br><br>
+            <img id="date" src="calendar-date-26-icon.jpg" alt="">
+            <b>Lorem ipsum dolor sit.</b> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> <br>
+            <img id="date" src="calendar-date-27-icon.jpg" alt="">
+            <b>Lorem ipsum dolor sit.</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> <br>
+            <img id="date" src="calendar-date-28-icon.jpg" alt="">
+            <b>Lorem ipsum dolor sit.</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div id="second">
+            <b id="About">About</b> <br>
+            <pre id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+Sapiente cumque nulla iusto tempore, error aliquid neque placeat,
+ repudiandae officia nihil voluptatum molestias ipsum numquam,
+ quod accusantium? Ea veniam eaque eligendi architecto, aliquid 
+ magnam illo Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Tempora quaerat repudiandae porro quod laboriosam provident molestiae,
+ea at ut vitae accusantium nulla ratione sit numquam suscipit magni laborum,
+consectetur adipisci, rem deleniti enim aperiam unde harum iusto! Repellat
+aliquam voluptate libero dignissimos unde vero nostrum qui, cupiditate,
+neque nesciunt doloribus! iusto!</pre>
+        </div>
+        <div id="third">
+            <b id="ht">Stay Connected</b> <br><br>
+            <img id="img" src="facebooklogo.jpg" alt="">
+            <b id="t">Facebook</b> <br>
+            <img id="img" src="twitterlogo.jpg" alt="">
+            <b id="t">Twitter</b> <br>
+            <img id="img" src="instagramlogo.jpg" alt="">
+            <b id="t">Instagram</b> <br>
+            <img id="img" src="googlelogo.jpg" alt="">
+            <b id="t">Google</b> <br>
+
+        </div>
+    </div>
+</body>
+</html>
+
