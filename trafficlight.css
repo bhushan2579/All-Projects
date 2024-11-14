@@ -1,0 +1,28 @@
+#parent{
+     height: 400px;
+     width: 200px;
+     background-color:lightslategrey;  
+     margin: 100px 550px ;
+        
+ }
+ #child1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 20px 55px;    
+ }
+#child2 {
+     height: 100px;
+     width: 100px;
+     background-color: yellow;
+     border-radius: 50%;
+     margin: 25px 55px;
+}
+#child3 {
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     border-radius: 50%;
+    margin:30px 55px;
+} 

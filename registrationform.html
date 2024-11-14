@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <style>
+      * {
+      margin: 0px;
+      padding: 0px;
+      }
+       #parent { 
+      height: 100vh;
+      width: 100%;
+      background-color: rgb(95, 149, 230);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      #cparent {
+        height: 600px;
+        width: 600px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        padding: 25px  
+      }
+     /* .form {
+       width: 90%;
+       justify-self: center;
+      } */
+      h2 {
+        color: rgb(35, 136, 194);
+         font-size:45px;
+      }
+      .child1 {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+      }
+        #submit {
+        background-color:;
+        height: 35px;
+            width: 600px;
+          }
+    </style>
+</head>
+<body>
+<!-- parent div 1  -->
+<div id="parent">
+  <!-- Child div (parent)  -->
+    <form action="" class="form">
+    <div id="cparent"><h2>Registration</h2><br> 
+    <!-- Adult child div 1  -->
+          <!-- child 1  -->
+        <div class="child1">
+          <label for="">Name</label>
+          <input type="text" placeholder="Enter Your Name" required> 
+          <label for="">Username</label>
+          <input type="text" placeholder="Enter Your Username" required> <br>
+        </div>
+    <!-- Adult child div 2  -->
+          <!-- child 2  -->
+        <div class="child1"> 
+          <label for="">Email</label>
+          <input type="email" placeholder="Enter Your Email" required> 
+          <label for="">Phone Number</label>
+          <input type="tel" name="phone" pattern="[0-9]-{5}-[0-9{5}" placeholder="Enter Your mobile number" required> <br>
+      </div>
+    <!-- Adult child div 3  -->
+        <!-- child 1  -->
+        <div class="child1">
+          <label for="">Password</label>
+          <input type="password" name="password" id="" placeholder="Enter Your Password" required>
+          <label for="">Confirm Password</label>
+          <input type="password" name="Confirm_passsword" placeholder="Confirm Your Password" id=""required>
+        </div>
+    <!-- Adult child div 4  -->
+            <!-- child 1  -->
+            <div class="child1"> 
+              <label >Gender</label> <br>
+              <input type="radio" name="gender" value="male" checked>Male
+              <input type="radio" name="gender" value="female" checked>Female
+              <input type="radio" name="gender" value="other" checked>Other
+            </div>
+            <div>
+              <input type="submit" id="submit" value="Register">
+            </div>
+      </div>
+  </div>    
+</form>
+</body>
+</html>

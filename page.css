@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#div1 {
+    height: 1000px;
+    width: 100%;
+    background-color: darkslategrey;
+    display: flex;    
+}
+#cdiv1 {
+   height: 1000px;
+   width: 50%;
+   background-color: black;
+
+}
+#cdiv2 {
+  height: 1000px;
+  width: 50%;
+  background-color: white;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  
+
+}
+#image{
+    height: 250px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    border-radius: 50%;
+    margin-top: 500px;
+    margin-left: 155px;
+    margin-right: 150px;
+
+}
+button {
+    background-color: thistle;
+    color: tomato;
+    size: 50px;
+}
+#span {
+
+    background-color:rgb(140, 255, 9);
+}
+/* Bordered form  */
+form {
+    border: 5px solid #0000;
+}
+/* Full-width inputs  */
+input [type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons  */
+button {
+    background-color: #15e4ff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;  
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+/* Extra style for the cancle button  */
+.canclebtn {
+    width: auto;
+    padding: 100px 18px;
+    background-color: #0000;
+}
+/* center the avatar image inside ths container  */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+/* Avatar image  */
+img.login button {
+    width: 40%;
+    border-radius: 50%;
+}
+/* Adding padding to containers  */
+.container {
+    padding: 16px;
+}
+/* The "Forgot password" text  */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* Change styles for span and cancle button on extra small screens  */
+@media  screen and (max-width:300px) { span.psw {
+    display: block;
+    float: none;
+}
+.canclebtn {
+    width: 100%;
+}
+}

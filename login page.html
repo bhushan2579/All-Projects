@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <!-- parent div1 -->
+    <div id="div1">
+        <!-- child div1 -->
+        <div id="cdiv1">
+            <img id="image" src="fvsofulo/logo" alt="">
+        </div>
+        <!-- child div2 -->
+        <div id="cdiv2">
+            <form action="action_page.php"method="post">
+                <div class="imgcontainer">
+                    <img src="fvsofulo/login_button" alt="monya"class="monya" height="300">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label><br>
+                    <input type="text" placeholder="Enter Username" name="uname" required><br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required><br>
+                    <button type="submit">Login</button><br>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember">remember me 
+                    </label>
+                </div>
+                <div class="container" style="background-color: #f1f1f1;">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
