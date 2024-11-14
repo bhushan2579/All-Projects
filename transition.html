@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightgray;
+        }
+        .box {
+           height: 300px;
+           width: 300px;
+           background-color: blueviolet;
+        }
+        .box img {
+            height: 100%;
+            width: 100%;
+            transition-duration: 3s;
+            transition-property: all;
+            transition-delay: 2s;
+            transition-timing-function: steps(4);
+            /* transition-behavior:initial ; */
+        }
+        .box img:hover {
+            height: 500px;
+            width: 500px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="yamato.img.jpeg" alt="yamato">
+    </div>
+</body>
+</html>
