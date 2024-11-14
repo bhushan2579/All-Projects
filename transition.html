@@ -14,20 +14,39 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: lightgray;
+            background:linear-gradient( to right,rgb(177, 177, 245),rgb(173, 152, 247),rgb(220, 112, 241))
+        }
+        .mbox {
+           height: 200px;
+           width: 200px;
+           /* background-color: blueviolet; */
+        }
+        .mbox img {
+            height: 100%;
+            width: 100%;
+            transition-duration: 3s;
+            transition-property: all;
+            transition-delay: 0.5s;
+            /* transition-timing-function: steps(4); */
+            /* transition-behavior:initial ; */
+        }
+        .mbox img:hover {
+            height: 450px;
+            width: 450px;
+            
         }
         .box {
            height: 300px;
            width: 300px;
-           background-color: blueviolet;
+           /* background-color: blueviolet; */
         }
         .box img {
             height: 100%;
             width: 100%;
             transition-duration: 3s;
             transition-property: all;
-            transition-delay: 2s;
-            transition-timing-function: steps(4);
+            transition-delay: 0.5s;
+            /* transition-timing-function: steps(4); */
             /* transition-behavior:initial ; */
         }
         .box img:hover {
@@ -35,11 +54,54 @@
             width: 500px;
             
         }
+        .load {
+            height: 400px;
+            width: 400px;
+            /* background-color: yellowgreen; */
+        }
+        .load img {
+            height: 100%;
+            width: 100%;
+            transition-duration: 3s;
+            transition-property: all;
+            transition-delay: 0.2s;
+            /* transition-timing-function: steps(4); */
+        }
+        .load img:hover {
+            height: 600px;
+            width: 600px;
+        }
+        .izoro {
+            height: 500px;
+            width: 500px;
+            /* background-color: yellowgreen; */
+        }
+        .izoro img {
+            height: 100%;
+            width: 100%;
+            transition-duration: 3s;
+            transition-property: all;
+            transition-delay: 0.2s;
+            /* transition-timing-function: steps(4); */
+        }
+        .izoro img:hover {
+            height: 750px;
+            width: 750px;
+        }
     </style>
 </head>
 <body>
+    <div class="mbox">
+        <img src="monya .jpg" alt="monya">
+    </div>
     <div class="box">
         <img src="yamato.img.jpeg" alt="yamato">
+    </div>
+    <div class="load">
+        <img  src="images (1).jpeg" alt="zoro">
+    </div>
+    <div class="izoro">
+        <img src="b2f4c66579f67c388589b8d84bed2fed.jpg" alt="redzoro">
     </div>
 </body>
 </html>
