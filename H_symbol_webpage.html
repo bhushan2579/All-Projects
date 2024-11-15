@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H_ymbol_WebPage</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .main {
+          height: 100vh;
+          width: 100%;
+          background: linear-gradient(to right, blue,rgb(147, 185, 255),rgb(57, 242, 255));
+          display: flex;
+             justify-content: center;
+             align-items: center;    
+        }
+        .submain {
+             display: flex;
+             justify-content: center;
+             align-items: center;    
+        }
+        .left {
+            height: 600px;
+            width: 500px;
+            /* background-color: aquamarine; */
+        }
+        .left img {
+            height: 100%;
+            width: 100%;
+        }
+        .left img:hover {
+            height: 400px;
+            width: 250px;
+            transition-duration: 5s;
+            transition-delay: 0.8s;
+        }
+        .center{
+            height: 400px;
+            width: 600px;
+            /* background-color: aquamarine; */
+            align-self:center;
+            justify-self: center;
+        }
+        .center img {
+            height: 100%;
+            width: 100%;
+        }
+        .center img:hover {
+            height: 500px;
+            width: 700px;
+            transition-duration: 3s;
+            transition-delay: 0.3s;
+        }
+        .right {
+            height: 500px;
+            width: 500px;
+            /* background-color: aquamarine; */
+            align-self:center;
+            justify-self: center;
+        }
+        .right img {
+            height: 100%;
+            width: 100%;
+        }
+        .right img:hover {
+            height: 600px;
+            width: 250px;
+            transition-duration: 4s;
+            transition-delay: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <!-- left pillar div -->
+     <div class="main">
+        <div class="submain">
+            <div class="left">
+              <a href="https://en.wikipedia.org/wiki/Education" target="_self"><img src="education.jgp.jpg" alt="education"></a>
+            </div>
+            <!-- center pillar div   -->
+            <div class="center">
+                <a href="https://en.wikipedia.org/wiki/Squid_Game" target="_self"><img src="squidgame.jpg" alt="squidgame"></a>
+            </div>
+            <!-- right pillar div  -->
+            <div class="right">
+                <a href="https://www.youtube.com/watch?v=X_BFAvA8Scc" target="_self"><img src="catsmile.jpg" alt="smiling_cat"></a>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
