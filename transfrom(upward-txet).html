@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform(upward-text)</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        } 
+        body{
+            height: 100vh;
+            /* display: flex; */
+            /* justify-content: flex-start; */
+            align-items: center;
+            background-image: url(goku0.1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .box{
+            height: 1000PX;
+            width: 30%;
+            background-color:transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            margin-left: 200px;
+        }
+        .child1 {
+            height: -200px;
+            width: 100%;
+            background-color: transparent;
+            /* position: relative; */
+        }
+        .child1:hover{
+            transition: 3s;
+            transform: rotate( 360deg);
+            /* height: 800px; */
+            width: 800px;
+        }
+        .child2 {
+            height: 200px;
+            width: 100%;
+            background-color: transparent;
+            /* position: relative; */
+        }
+        .child2:hover {
+            transition: 3s;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="child1">
+            <img src="goku-profile-e1616173641804-400x400.jpg" alt="">
+            
+        </div>
+        <div class="child2">
+<pre>
+    <b>Son Goku (孫そん悟ご空くう Son Gokū)</b>, born <b>Kakarot</b> (カカロット Kakarotto), is a Saiyan 
+    raised on Earth and the main protagonist of the Dragon Ball series. He is the second-born 
+    son and youngest child of Bardock and Gine, the husband of Chi-Chi, and the father of 
+    Gohan and Goten. Originally sent to Earth by his parents as an infant, Kakarot was adopted 
+    by Grandpa Gohan and renamed Son Goku. A head injury at an early age altered Goku's 
+    memory, ridding him of his initial destructive nature and allowing him to grow up to 
+    become one of Earth's greatest defenders. Goku constantly strives and trains to be the 
+    greatest warrior that he can possibly be, which has kept the Earth and the universe safe 
+    from destruction multiple times.[23]s</pre>
+        </div>
+    </div>
+</body>
+</html>
